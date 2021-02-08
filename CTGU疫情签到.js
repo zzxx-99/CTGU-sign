@@ -57,7 +57,7 @@ function PunchClock() {
     launchApp("微信");
     sleep(2000)
 
-    var sousuo = className("android.widget.ImageView").id("f8y").findOne(2000);//进行搜索
+    var sousuo = className("android.widget.ImageView").id("he6").findOne(2000);//进行搜索
     log(sousuo);
     if(sousuo!=null){
         click(sousuo.bounds().centerX(),sousuo.bounds().centerY());
